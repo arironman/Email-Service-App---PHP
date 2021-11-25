@@ -1,0 +1,25 @@
+.container{
+    background-color: var(--color-1);
+    color: var(--color-4);
+    border-radius: 10px;
+    border: 2px solid var(--color-4) ;
+    margin: auto;
+    margin-top: 3rem;
+    max-width: 700px;
+}
+
+.page-heading{
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid var(--color-4);
+    margin: 5px 10px 5px 10px;
+}
+
+.page-content{
+    color: var(--color-2);
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    text-align: justify;
+}

@@ -1,0 +1,74 @@
+.form-container {
+    background-color: var(--color-3);
+    margin: auto;
+    max-width: 600px;
+    margin-top: 4rem;
+    overflow-x: hidden;
+    /* padding: 2rem; */
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-container h1 {
+    color: var(--color-4);
+    border-bottom: 2px solid var(--color-4);
+    margin: 0 2rem;
+    padding-top: 2rem;
+}
+
+.form-container form {
+    padding: 1rem;
+    text-align: center;
+}
+
+.input-box {
+    width: fit-content;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.input-box input {
+    font-size: 1.1rem;
+    /* min-width: 280px; */
+    width: 400px;
+    color: var(--color-4);
+    background-color: var(--color-3);
+    border: none;
+    border-bottom: 2px solid var(--color-4);
+    padding: 2px 5px;
+    font-weight: bold;
+    margin: auto;
+    /* text-decoration: none; */
+    outline: none;
+}
+
+textarea {
+    background-color: var(--color-1);
+    color: var(--color-4);
+    border: 2px solid var(--color-4);
+    width: 400px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input-box input::placeholder, .input-box textarea::placeholder {
+    color: var(--color-4);
+}
+
+.form-container button {
+    background-color: var(--color-1);
+    color: var(--color-4);
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: auto;
+    border: 2px solid var(--color-2);
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 5px;
+    min-width: 150px;
+}

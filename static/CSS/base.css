@@ -1,0 +1,97 @@
+/* importing the font */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+/* style apply to all */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+    --color-1: black;
+    --color-2: #3883fc;
+    --color-3: #122647;
+    --color-4: mintcream;
+}
+
+body {
+    background-color: var(--color-1);
+    overflow-x: hidden;
+}
+
+.header-container {
+    width: 99vw;
+    display: flex;
+    padding: 2px 10px 2px 10px;
+    background-color: var(--color-3);
+    margin: auto;
+    /* border-bottom: 2px solid var(--color-1); */
+}
+
+.icon {
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.company-name {
+    color: var(--color-4);
+    padding: 0 10px 0 10px;
+}
+
+.navbar {
+    width: 99vw;
+    border-bottom: 2px solid var(--color-4);
+    background-color: var(--color-3);
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    list-style: none;
+    border-left: 1px solid var(--color-2);
+    border-right: 1px solid var(--color-2);
+}
+
+.nav-btn {
+    background-color: var(--color-3);
+    color: var(--color-2);
+    padding: 2px 5px 2px 5px;
+    font-size: 1rem;
+    min-width: 60px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    border: 1px solid var(--color-2);
+}
+
+.user-btn-container {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.user-btn-container li {
+    border: none;
+}
+
+.user-btn {
+    color: var(--color-4);
+    border: none;
+}
+
+.message{
+    width: 99%;
+    margin: auto;
+    border: 2px solid var(--color-2);
+    color: var(--color-4);
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+}
