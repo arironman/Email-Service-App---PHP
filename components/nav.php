@@ -1,7 +1,7 @@
 <!-- getting the auth status of user -->
 <?php
 require_once "components/auth-status.php";
-require_once "components/config.php";
+// require_once "components/config.php";
 ?>
 
 <!-- navbar -->
